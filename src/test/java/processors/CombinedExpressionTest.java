@@ -39,4 +39,14 @@ public class CombinedExpressionTest {
         assertEquals(oracleAST,outputAST);
     }
 
+    @Test
+    public void testC2() throws Exception {
+        String className = "C2.java";
+
+        CtPackage oracleAST = TestUtils.getAST(oraclePath+className);
+        CtPackage outputAST = TestUtils.getAST(outputPath+className);
+
+        assertEquals(oracleAST,outputAST);
+    }
+
 }

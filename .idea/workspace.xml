@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a94ad962-e8ae-48db-8740-2288fc63930f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/processors/CombinedExpressionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/combined/input/C1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/combined/oracle/C1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logical/input/AND_OR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logical/input/OR_AND.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logical/oracle/AND_OR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logical/oracle/OR_AND.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/combined/input/C2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/combined/oracle/C2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mutators/CtExpressionReversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mutators/CtExpressionReverser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/processors/IfProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processors/ReverseIfConditionsProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/processors/CombinedExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/processors/CombinedExpressionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +53,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/combined/oracle" />
+      <recent name="$PROJECT_DIR$/src/test/resources/combined/input" />
       <recent name="$PROJECT_DIR$/src/test/resources/logical/oracle" />
       <recent name="$PROJECT_DIR$/src/test/resources/logical/input" />
       <recent name="$PROJECT_DIR$/src/test/resources/unary/oracle" />
-      <recent name="$PROJECT_DIR$/src/test/resources/unary/input" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/relationals/input" />
@@ -183,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655452120654</updated>
       <workItem from="1655452125090" duration="703000" />
-      <workItem from="1655452873494" duration="55467000" />
+      <workItem from="1655452873494" duration="57612000" />
     </task>
     <servers />
   </component>
@@ -195,7 +188,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
