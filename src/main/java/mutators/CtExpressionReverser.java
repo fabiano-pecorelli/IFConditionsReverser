@@ -66,12 +66,17 @@ public class CtExpressionReverser {
     }
 
     static BinaryOperatorKind getReverse(BinaryOperatorKind kind){
+
+        // returns -1 if does not find an index for the input parameter
         int index = relationalOperators.indexOf(kind);
+
         if (index == -1){
             index = logicalOperators.indexOf(kind);
-            //
+
+            // Each operator is close to its reverse. Therefore, for even indexes the reverse is at (index + 1); for odd indexes, the reverse is at (index - 1)
             return (index%2 == 0)? logicalOperators.get(index+1):logicalOperators.get(index-1);
         }
+
         return (index%2 == 0)? relationalOperators.get(index+1):relationalOperators.get(index-1);
     }
 }

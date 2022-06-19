@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a94ad962-e8ae-48db-8740-2288fc63930f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/combined/input/C2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/combined/oracle/C2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/processors/CombinedExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/processors/CombinedExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mutators/CtExpressionReverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mutators/CtExpressionReverser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655452120654</updated>
       <workItem from="1655452125090" duration="703000" />
-      <workItem from="1655452873494" duration="57612000" />
+      <workItem from="1655452873494" duration="59874000" />
     </task>
     <servers />
   </component>
