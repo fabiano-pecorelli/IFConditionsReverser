@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a94ad962-e8ae-48db-8740-2288fc63930f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mutators/CtExpressionReversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/processors/IfProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/processors/CombinedExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/combined/input/C1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/combined/oracle/C1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logical/input/AND_OR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logical/input/OR_AND.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logical/oracle/AND_OR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logical/oracle/OR_AND.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mutators/CtExpressionReversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mutators/CtExpressionReverser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/processors/IfProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processors/ReverseIfConditionsProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/pxfape/Desktop/PhD/LuxembourgInterview/TechnicalTaskPecorelli/src/test/resources/logical/input",
+    "last_opened_file_path": "/Users/pxfape/Desktop/PhD/LuxembourgInterview/TechnicalTaskPecorelli/src/test/resources/combined/oracle",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,11 +59,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/logical/input" />
+      <recent name="$PROJECT_DIR$/src/test/resources/combined/oracle" />
       <recent name="$PROJECT_DIR$/src/test/resources/logical/oracle" />
+      <recent name="$PROJECT_DIR$/src/test/resources/logical/input" />
       <recent name="$PROJECT_DIR$/src/test/resources/unary/oracle" />
       <recent name="$PROJECT_DIR$/src/test/resources/unary/input" />
-      <recent name="$PROJECT_DIR$/src/test/resources/literals/oracle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/relationals/input" />
@@ -73,17 +76,17 @@
       <recent name="processors" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LogicalOperatorTest">
-    <configuration name="IfProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CombinedExpressionTest">
+    <configuration name="CombinedExpressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TechnicalTaskPecorelli" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mutators.*" />
+          <option name="PATTERN" value="processors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="processors" />
-      <option name="MAIN_CLASS_NAME" value="processors.IfProcessorTest" />
+      <option name="MAIN_CLASS_NAME" value="processors.CombinedExpressionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicalOperatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicalExpressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TechnicalTaskPecorelli" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +116,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="processors" />
-      <option name="MAIN_CLASS_NAME" value="processors.LogicalOperatorTest" />
+      <option name="MAIN_CLASS_NAME" value="processors.LogicalExpressionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelationalExpressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnaryExpressionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TechnicalTaskPecorelli" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +131,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="processors" />
-      <option name="MAIN_CLASS_NAME" value="processors.RelationalExpressionTest" />
+      <option name="MAIN_CLASS_NAME" value="processors.UnaryExpressionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnaryOperatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="processors in TechnicalTaskPecorelli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TechnicalTaskPecorelli" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +146,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="processors" />
-      <option name="MAIN_CLASS_NAME" value="processors.UnaryOperatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LogicalOperatorTest" />
-        <item itemvalue="JUnit.UnaryOperatorTest" />
+        <item itemvalue="JUnit.CombinedExpressionTest" />
+        <item itemvalue="JUnit.LogicalExpressionTest" />
+        <item itemvalue="JUnit.processors in TechnicalTaskPecorelli" />
+        <item itemvalue="JUnit.UnaryExpressionTest" />
         <item itemvalue="JUnit.LiteralTest" />
-        <item itemvalue="JUnit.RelationalExpressionTest" />
-        <item itemvalue="JUnit.IfProcessorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655452120654</updated>
       <workItem from="1655452125090" duration="703000" />
-      <workItem from="1655452873494" duration="53963000" />
+      <workItem from="1655452873494" duration="55467000" />
     </task>
     <servers />
   </component>

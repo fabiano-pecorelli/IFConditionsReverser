@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class CtExpressionReversor {
+public class CtExpressionReverser {
 
     // The following two lists have been declared to find the reverse for each operator. Elements have been ordered to ensure that reverse elements are subsequent in pairs.
     public static final List<BinaryOperatorKind> relationalOperators = Collections.unmodifiableList(Arrays.asList(BinaryOperatorKind.EQ,BinaryOperatorKind.NE,BinaryOperatorKind.GT,BinaryOperatorKind.LE,BinaryOperatorKind.LT,BinaryOperatorKind.GE));
